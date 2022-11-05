@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="book-marker w-75 mx-auto p-5 shadow-lg m-5">
+        <h1 class="text-center text-muted ">Bookmarker</h1>
+        <h2 class="text-center"> BookMark Your Favorite sites</h2>
+        <label for="SiteName" class="form-label">Site Name</label>
+        <input type="text" class="form-control" onblur="ValidateSname()" id="SiteName">
+        <label for="SiteUrl" class="form-label">Site URL</label>
+        <input type="text" class="form-control" id="SiteUrl">
+        <button class="btn " id="addSite">Submite</button>
+        <button onclick="clearForm()" class="btn" id="delete">clear</button>
+    </div>
+    <input onkeyup="searchSite()" class="form-control w-50  mx-auto my-4 shadow-lg" id="searchInput"
+        placeholder="search...">
+
+    <table class="table w-75  mx-auto">
+        <thead>
+            <th>#</th>
+            <th>Site Name</th>
+            <th class="text-center">Visit</th>
+            <th class="text-center">Edit</th>
+            <th class="text-center">Delete</th>
+        </thead>
+        <tbody id="tablebody">
+
+
+        </tbody>
+    </table>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

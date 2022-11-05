@@ -1,0 +1,56 @@
+.form-label {
+    justify-content: center;
+    display: flex;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+
+}
+
+.book-marker {
+    background-color: #EEEEEE;
+}
+
+#visitBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: Impact;
+    background-color: teal;
+    width: 45px;
+}
+
+.btn {
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Impact;
+
+}
+
+#delete:hover {
+    background-color: #000000;
+    color: crimson;
+}
+
+.book-marker .btn:hover {
+    background-color: black;
+    color: white;
+    transition-delay: 0.1s;
+}
+
+body {
+    background-color: rgb(183, 199, 199);
+}
+
+.book-marker h1,
+h2 {
+    font-family: Impact;
+}
+#SName{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
